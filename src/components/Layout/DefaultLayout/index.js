@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "../components/Header/index";
 import Sidebar from "./Sidebar";
 const DefaultLayout = ({ children }) => {
   return (
