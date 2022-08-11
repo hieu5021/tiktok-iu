@@ -4,6 +4,7 @@ import classNames from "classnames/bind";
 import Tippy from "@tippyjs/react/headless";
 import { Wrapper as PopperWrapper } from "~/pages/Popper";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Button from "~/pages/Button";
 import {
   faCircleXmark,
   faMagnifyingGlass,
@@ -120,7 +121,14 @@ const Header = () => {
           </div>
         </Tippy>
 
-        <div className={cx("actions-container")}></div>
+        <div className={cx("actions-container")}>
+          <Button text target="_blank">
+            Upload
+          </Button>
+          <Button rounded target="_blank">
+            Login
+          </Button>
+        </div>
       </div>
     </header>
   );
