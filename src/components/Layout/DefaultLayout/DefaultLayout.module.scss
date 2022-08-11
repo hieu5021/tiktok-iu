@@ -5,7 +5,7 @@
 }
 .container{
     display: flex;
-    width:var(default-layout-width);
+    width:var(--default-layout-width);
     min-height: 100%;
 }
 .content{
